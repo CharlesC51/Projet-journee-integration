@@ -1,3 +1,6 @@
 # Projet-journee-integration
 
-Robin Guerre
+## Team du projet
+
+* CREPIN Charles
+* GUERRE Robin
