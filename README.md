@@ -1,1 +1,1 @@
-# Projet-journ-e-int-gration
+# Projet-journee-integration
