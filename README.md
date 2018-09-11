@@ -6,4 +6,4 @@
 * DE SOTO COBET Corentin
 * GUERRE Robin
 
-## Nouveau titre
+## Journée d'intégration
