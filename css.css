@@ -70,6 +70,7 @@
 
 body {
     background-color: #212529;
+    height: 100%;
 }
 
 .color-body {
@@ -83,4 +84,9 @@ body {
 .jumbotron {
     background-image: url("https://zupimages.net/up/18/38/pt2c.jpg");
     background-size: cover;
+    background-position: center center;
+}
+
+html {
+    height: 100%;
 }
