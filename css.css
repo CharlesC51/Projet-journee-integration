@@ -127,3 +127,7 @@ p {
 ol.carousel-indicators li.active {
     background: orange;
   }
+
+.resize-img {
+    height: 400px;
+}
