@@ -19,32 +19,27 @@
 </head>
 
 <body>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-
-        <a class="navbar-brand" href="#">
-            <img src="https://wildcodeschool.fr/wp-content/uploads/2017/01/logo_orange_pastille.png" width="50" height="50"
-                class="d-inline-block align-top" alt="Responsive image">
-
-        </a>
-        <h1 class="navbar-text lead text-warning">Journée d'intégration</h1>
-        <button class="navbar-toggler border-warning" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav text-center">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+            <img src="https://wildcodeschool.fr/wp-content/uploads/2017/01/logo_orange_pastille.png" class="img-fluid"
+                width="50" height="50" class="d-inline-block align-top" alt="Responsive image">
+            <a class="navbar-brand mr-0" href="#">Journée d'intégration</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="navbar-collapse collapse justify-content-center" id="collapsingNavbar">
+            <ul class="navbar-nav mx-auto" style="width: 40px;">
                 <li class="nav-item">
-                    <a class="nav-link text-warning" href="#discovery">Découverte</a>
+                    <a class="nav-link" href="#discovery">Découverte</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-warning" href="#activities">Activités</a>
+                    <a class="nav-link" href="#activities">Activités</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-warning" href="#colunch">Colunch</a>
+                    <a class="nav-link" href="#colunch">Colunch</a>
                 </li>
             </ul>
         </div>
+        <span class="navbar-text small text-truncate mt-1 w-50 text-right"></span>
     </nav>
 
     <figure class="card bg-dark text-white">
@@ -135,7 +130,8 @@
 
             <article class="row justify-content-center flex-column">
                 <div class="col-6 col-sm-7 align-self-center">
-                    <div class="dropdown-divider border-dark"></div>
+                    <div class="dropdown-divider border-dark">
+                    </div>
                 </div>
 
                 <div class="align-self-center">
@@ -168,7 +164,7 @@
                     <div class="dropdown-divider border-dark"></div>
                 </div>
                 <div class="align-self-center">
-                    <h2>CO-LUNCH</h2>
+                    <h2 id="colunch">CO-LUNCH</h2>
                 </div>
 
                 <div class="col-4 col-sm-5 align-self-center">

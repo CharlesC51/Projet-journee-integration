@@ -1,15 +1,47 @@
+.card-text {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 160px;
+    width: auto;
+    text-align: left;
+}
+
+.navbar-brand{
+    display: inline-block;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.navbar-dark .navbar-brand{
+    color: orange;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: orange;
+}
+
+.navbar .active{
+    color: white;
+    text-decoration: underline;
+}
+
+
 @media (min-width: 576px) { 
     .container {
         width: 540px;
     }
-
 }
+
 
 @media (min-width: 768px) { 
     .container {
         width: 720px;
     }
-
 }
 
 @media (min-width: 992px) { 
@@ -22,7 +54,6 @@
     .container {
         width: 1140px;
     }
-
 }
 
 .container {
@@ -33,6 +64,3 @@
     margin-right: auto;
 }
 
-.height {
-    
-}
