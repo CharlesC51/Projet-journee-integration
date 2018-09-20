@@ -127,3 +127,7 @@ p {
 ol.carousel-indicators li.active {
     background: orange;
   }
+
+.nav-item {
+    font-size: 2rem;
+}
