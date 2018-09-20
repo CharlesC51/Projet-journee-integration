@@ -22,6 +22,11 @@
   text-decoration: underline;
 }
 
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.63);
+    border-radius: 2rem;
+}
+
 @media (min-width: 576px) {
   .container {
     width: 540px;
