@@ -32,17 +32,26 @@
   .container {
     width: 540px;
   }
+  .card-columns {
+    column-count: 1;
+  }
 }
 
 @media (min-width: 768px) {
   .container {
     width: 720px;
   }
+  .card-columns {
+    column-count: 2;
+  }
 }
 
 @media (min-width: 992px) {
   .container {
     width: 960px;
+  }
+  .card-columns {
+    column-count: 2;
   }
 }
 
