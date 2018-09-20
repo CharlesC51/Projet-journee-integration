@@ -64,3 +64,8 @@
     margin-right: auto;
 }
 
+.jumbotron {
+    background-image: url("https://zupimages.net/up/18/38/pt2c.jpg");
+    background-size: cover;
+}
+
