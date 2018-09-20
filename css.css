@@ -25,11 +25,15 @@
 .carousel-caption {
     background: rgba(0, 0, 0, 0.63);
     border-radius: 2rem;
+    border: 1px solid orange;
 }
 
 @media (min-width: 576px) {
   .container {
     width: 540px;
+  }
+  .card-columns {
+    column-count: 1;
   }
 }
 
@@ -37,11 +41,17 @@
   .container {
     width: 720px;
   }
+  .card-columns {
+    column-count: 2;
+  }
 }
 
 @media (min-width: 992px) {
   .container {
     width: 960px;
+  }
+  .card-columns {
+    column-count: 2;
   }
 }
 
@@ -70,6 +80,8 @@
 
 body {
     background-color: #212529;
+    height: 100%;
+    font-family: 'Roboto Slab', serif;
 }
 
 .color-body {
@@ -83,5 +95,35 @@ body {
 .jumbotron {
     background-image: url("https://zupimages.net/up/18/38/pt2c.jpg");
     background-size: cover;
+    background-position: center center;
 }
 
+html {
+    height: 100%;
+}
+
+.card {
+    background-color: transparent;
+}
+
+p {
+    color: white;
+}
+
+.lead {
+    background: rgba(0, 0, 0, 0.63);
+    border-radius: 2rem;
+    padding: 30px;
+    border: 1px solid orange;
+}
+
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+  }
+
+ol.carousel-indicators li.active {
+    background: orange;
+  }
