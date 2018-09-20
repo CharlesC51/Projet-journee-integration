@@ -23,9 +23,18 @@
 }
 
 .carousel-caption {
-    background: rgba(0, 0, 0, 0.63);
-    border-radius: 2rem;
-    border: 1px solid orange;
+  background: rgba(0, 0, 0, 0.63);
+  border-radius: 2rem;
+  border: 1px solid orange;
+}
+
+@media (max-width: 576px) {
+  .fontSizeActivitiesTitle {
+    font-size: 0.9rem;
+  }
+  .fontSizeActivitiesContent {
+    font-size: 0.8rem;
+  }
 }
 
 @media (min-width: 576px) {
@@ -74,47 +83,46 @@
 
 .card-img,
 .card-height {
-    height: 400px;
+  height: 400px;
 }
 
-
 body {
-    background-color: #212529;
-    height: 100%;
-    font-family: 'Roboto Slab', serif;
+  background-color: #212529;
+  height: 100%;
+  font-family: "Roboto Slab", serif;
 }
 
 .color-body {
-    color: orange;
+  color: orange;
 }
 
 .dropdown-divider {
-    border-color: orange;
+  border-color: orange;
 }
 
 .jumbotron {
-    background-image: url("https://zupimages.net/up/18/38/pt2c.jpg");
-    background-size: cover;
-    background-position: center center;
+  background-image: url("https://zupimages.net/up/18/38/pt2c.jpg");
+  background-size: cover;
+  background-position: center center;
 }
 
-html{
-    height: 100%;
+html {
+  height: 100%;
 }
 
 .card {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 p {
-    color: white;
+  color: white;
 }
 
 .lead {
-    background: rgba(0, 0, 0, 0.63);
-    border-radius: 2rem;
-    padding: 30px;
-    border: 1px solid orange;
+  background: rgba(0, 0, 0, 0.63);
+  border-radius: 2rem;
+  padding: 30px;
+  border: 1px solid orange;
 }
 
 .carousel-indicators li{
@@ -134,4 +142,9 @@ ol.carousel-indicators li.active{
 
 .nav-item{
     font-size: 2rem;
+}
+  }
+
+.resize-img {
+    height: 400px;
 }
