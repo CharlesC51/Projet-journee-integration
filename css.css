@@ -85,3 +85,11 @@ body {
     background-size: cover;
 }
 
+.card {
+    background-color: transparent;
+}
+
+p {
+    color: white;
+}
+
