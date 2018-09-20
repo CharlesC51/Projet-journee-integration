@@ -91,3 +91,11 @@ body {
     height: 100%;
 }
 
+.card {
+    background-color: transparent;
+}
+
+p {
+    color: white;
+}
+
