@@ -112,9 +112,13 @@ html {
 
 .card {
   background-color: transparent;
+  border: none;
 }
 
-p {
+p,
+.listcard,
+h4 {
+  list-style: none;
   color: white;
 }
 
