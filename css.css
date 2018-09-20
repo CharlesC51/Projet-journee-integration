@@ -25,6 +25,7 @@
 .carousel-caption {
     background: rgba(0, 0, 0, 0.63);
     border-radius: 2rem;
+    border: 1px solid orange;
 }
 
 @media (min-width: 576px) {
@@ -71,6 +72,7 @@
 body {
     background-color: #212529;
     height: 100%;
+    font-family: 'Roboto Slab', serif;
 }
 
 .color-body {
@@ -87,7 +89,7 @@ body {
     background-position: center center;
 }
 
-.html{
+html{
     height: 100%;
 }
 
@@ -97,5 +99,27 @@ body {
 
 p {
     color: white;
+}
+
+.lead {
+    background: rgba(0, 0, 0, 0.63);
+    border-radius: 2rem;
+    padding: 30px;
+    border: 1px solid orange;
+}
+
+.carousel-indicators li{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+
+ol.carousel-indicators li.active{
+    background: orange;
+}
+
+.col-6{
+    font-size: 1.5rem;
 }
 
