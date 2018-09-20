@@ -126,3 +126,15 @@ p {
 ol.carousel-indicators li.active {
   background: orange;
 }
+
+@media (max-width: 600px) {
+  .fontSizeActivitiesTitle {
+      font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .fontSizeActivitiesContent {
+      font-size: 0.8rem;
+  }
+}
