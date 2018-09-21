@@ -117,7 +117,8 @@ html {
 
 p,
 .listcard,
-h4 {
+h4,
+h5 {
   list-style: none;
   color: white;
 }
@@ -150,4 +151,21 @@ ol.carousel-indicators li.active{
 
 .resize-img {
     height: 400px;
+}
+
+.listcardnumber {
+  color: white;
+  list-style-type: decimal;
+}
+
+.heightcardrec {
+  height: 530px;
+}
+
+.cardjuice {
+  height: 235px;
+}
+
+.bordercard {
+  border:2px solid orange;
 }
