@@ -17,9 +17,8 @@
   color: orange;
 }
 
-.navbar .active {
+.navbar .nav-link .active {
   color: white;
-  text-decoration: underline;
 }
 
 .carousel-caption {
@@ -112,9 +111,13 @@ html {
 
 .card {
   background-color: transparent;
+  border: none;
 }
 
-p {
+p,
+.listcard,
+h4 {
+  list-style: none;
   color: white;
 }
 
@@ -141,9 +144,17 @@ ol.carousel-indicators li.active{
 }
 
 .nav-item{
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .resize-img {
     height: 400px;
+}
+
+h2{
+  color: orange;
+}
+
+.linkfooter{
+  list-style: none;
 }
