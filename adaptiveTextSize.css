@@ -1,0 +1,11 @@
+@media (min-width: 601px) {
+    .example {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .example {
+        font-size: 1rem;
+    }
+}
